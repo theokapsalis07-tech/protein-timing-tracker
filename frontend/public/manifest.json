@@ -1,0 +1,10 @@
+{
+  "name": "Synth — Protein Timing",
+  "short_name": "Synth",
+  "description": "Track and optimise your protein timing for maximum muscle growth",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0d1410",
+  "theme_color": "#1e8a4e",
+  "icons": []
+}
