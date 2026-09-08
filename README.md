@@ -35,8 +35,7 @@ Data is stored in `backend/data.json` (a simple file-based store — good
 enough for v1, swap for SQLite/Postgres later without touching the API
 routes much, since `db.js` is the only file that would need to change).
 
-## Suggested next steps (good places to keep building with Claude Code)
-
+## Suggested next steps 
 1. **Real password hashing** — currently SHA-256, swap for bcrypt.
 2. **Swap `data.json` for SQLite** — `db.js` is the only file to touch.
 3. **Deploy it** — Render/Railway/Fly.io all have free tiers that suit
@@ -48,7 +47,7 @@ routes much, since `db.js` is the only file that would need to change).
 6. **Notifications** — a gentle nudge after ~4-5h with no logged protein.
 7. **Edit/delete log entries** — currently log-only, no correction UI.
 
-## Interview talking points this project supports
+## this project supports
 
 - Translating a body of primary research (Areta 2013, Mamerow 2014,
   Trommelen 2023) into a working product decision, including being
